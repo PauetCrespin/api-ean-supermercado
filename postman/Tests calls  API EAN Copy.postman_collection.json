@@ -1,0 +1,250 @@
+{
+	"info": {
+		"_postman_id": "20572a81-bd3c-4a5b-8d42-003aa77afa11",
+		"name": "Tests calls  API EAN Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37143527"
+	},
+	"item": [
+		{
+			"name": "SupermercadoEspaña",
+			"item": [
+				{
+					"name": "SupermercadoEspaña1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/ean/6581231450071",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"ean",
+								"6581231450071"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SupermercadoEspaña2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/ean/6581231450072",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"ean",
+								"6581231450072"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SupermercadoEspaña3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/ean/6581231450073",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"ean",
+								"6581231450073"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SupermercadoEspaña4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/ean/6581231450074",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"ean",
+								"6581231450074"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SupermercadoEspaña5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/ean/6581231450075",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"ean",
+								"6581231450075"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Supermercado Portugal",
+			"item": [
+				{
+					"name": "SupermercadoPortugal6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/ean/6581231450076",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"ean",
+								"6581231450076"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Invalid destination code",
+			"item": [
+				{
+					"name": "CodigoDestinoInvalido7",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/ean/6581231450077",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"ean",
+								"6581231450077"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Almacenes",
+			"item": [
+				{
+					"name": "Almacenes8",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/ean/6581231450078",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"ean",
+								"6581231450078"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Oficinas",
+			"item": [
+				{
+					"name": "Oficinas9",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/ean/6581231450079",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"ean",
+								"6581231450079"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Colmenas",
+			"item": [
+				{
+					"name": "Colmenas0",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/ean/6581231450070",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"ean",
+								"6581231450070"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
